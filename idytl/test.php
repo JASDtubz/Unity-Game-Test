@@ -22,6 +22,7 @@
     {
         global $var;
         echo "Hello, $var<br>";
+        echo "Hello, $GLOBALS['var']<br>";
     }
     
 </html></body><?
